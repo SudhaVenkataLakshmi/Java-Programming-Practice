@@ -4,6 +4,8 @@ public class InstanceVariable {
     char c;
     double d;
     String str;
+    short s;
+
     public static void main(String args[]){
 
         InstanceVariable obj1 = new InstanceVariable();
@@ -30,6 +32,11 @@ public class InstanceVariable {
         System.out.println("The Default Value of string is: "+obj5.str);
         obj5.str = "Java";
         System.out.println("The Value of string is: "+obj5.str);
+
+        InstanceVariable obj6 = new InstanceVariable();
+        System.out.println("The Default Value of byte is: "+obj6.s);
+        obj6.s = 12365;
+        System.out.println("The Value of byte is: "+obj6.s);
 
     }
 }
