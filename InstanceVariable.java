@@ -5,6 +5,7 @@ public class InstanceVariable {
     double d;
     String str;
     short s;
+    long l;
 
     public static void main(String args[]){
 
@@ -37,6 +38,11 @@ public class InstanceVariable {
         System.out.println("The Default Value of byte is: "+obj6.s);
         obj6.s = 12365;
         System.out.println("The Value of byte is: "+obj6.s);
+
+        InstanceVariable obj7 = new InstanceVariable();
+        System.out.println("The Default Value of byte is: "+obj7.l);
+        obj7.l = 834983453;
+        System.out.println("The Value of byte is: "+obj7.l);
 
     }
 }
