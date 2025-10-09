@@ -10,6 +10,10 @@ public class InputReading {
         int i = sc.nextInt();
         System.out.println("Enter long Value: ");
         long l = sc.nextLong();
+        System.out.println("Enter float Value: ");
+        float f = sc.nextFloat();
+        System.out.println("Enter double Value: ");
+        double d = sc.nextDouble();
         System.out.println("Enter string Value: ");
         sc.nextLine();
         String str1 = sc.next();
