@@ -34,7 +34,6 @@ public class InputReading {
         System.out.println("Double Value: "+d);
 
 
-
    }
 
 }
