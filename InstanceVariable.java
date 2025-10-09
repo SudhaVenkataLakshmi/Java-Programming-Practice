@@ -26,5 +26,10 @@ public class InstanceVariable {
         obj4.d = 34.4674643;
         System.out.println("The Value of double is: "+obj4.d);
 
+        InstanceVariable obj5 = new InstanceVariable();
+        System.out.println("The Default Value of string is: "+obj5.str);
+        obj5.str = "Java";
+        System.out.println("The Value of string is: "+obj5.str);
+
     }
 }
