@@ -28,5 +28,13 @@ public class Operators {
         System.out.println((a!=10) || (b>a));
         System.out.println(a!=b);
         System.out.println(a==b);
+
+        //Assignment Operators
+
+        System.out.println("(a+=3): "+(a+=3));
+        System.out.println("(a-=2): "+(a-=2));
+        System.out.println("(a*=4): "+(a*=4));
+        System.out.println("(a/=2): "+(a/=2));
+        System.out.println("(a%=2): "+(a%=2));
     }
 }
