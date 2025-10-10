@@ -8,5 +8,6 @@ public class AreaOfCircle {
         int r = sc.nextInt();
         float area = pi * r * r;
         System.out.println("Area of Circle is: "+area);
+        System.out.printf("%.1f",area);
     }
 }
