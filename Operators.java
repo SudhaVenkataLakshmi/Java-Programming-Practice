@@ -20,5 +20,13 @@ public class Operators {
         System.out.println("(a>=b):"+(a>=b));
         System.out.println("(a!=b):"+(a!=b));
 
+        //Logical Operators
+
+        System.out.println((a!=b) && (a>b));
+        System.out.println((a!=b) && (a<b));
+        System.out.println((a==b) || (a<b));
+        System.out.println((a!=10) || (b>a));
+        System.out.println(a!=b);
+        System.out.println(a==b);
     }
 }
