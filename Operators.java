@@ -36,5 +36,14 @@ public class Operators {
         System.out.println("(a*=4): "+(a*=4));
         System.out.println("(a/=2): "+(a/=2));
         System.out.println("(a%=2): "+(a%=2));
+
+        //Increment & Decrement Operators
+
+        System.out.println("The Value of a is: "+a);
+        System.out.println("(++a): "+(++a));
+        System.out.println("(a++): "+(a++));
+        System.out.println("(--a): "+(--a));
+        System.out.println("(a--): "+(a--));
+        System.out.println("The Value of a is: "+a);
     }
 }
