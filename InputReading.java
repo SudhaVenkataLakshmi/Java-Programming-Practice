@@ -32,8 +32,6 @@ public class InputReading {
         System.out.println("Char Value: "+c);
         System.out.println("Float Value: "+f);
         System.out.println("Double Value: "+d);
-
-
    }
 
 }
