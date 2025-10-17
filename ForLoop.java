@@ -8,7 +8,7 @@ public class ForLoop {
         System.out.println("Enter Ending Value: ");
         int end = sc.nextInt();
         System.out.println("Values between " +start+ " and " +end+ " are: ");
-        for(int i = start; i < end; i++){
+        for(int i = start; i <= end; i++){
             if(i % 2 == 0){
                 System.out.println(i);
             }
