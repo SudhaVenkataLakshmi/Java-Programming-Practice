@@ -7,8 +7,8 @@ public class ConvertHours {
     int hrs = sc.nextInt();
     int min = hrs * 60;
     int sec = min * 60;
-    System.out.println("Given Hours to Minutes: "+min);
-    System.out.println("Given Hours to Seconds: "+sec);
+    System.out.println("Given Hours converted to Minutes: "+min);
+    System.out.println("Given Hours converted to Seconds: "+sec);
   }
 }
 
