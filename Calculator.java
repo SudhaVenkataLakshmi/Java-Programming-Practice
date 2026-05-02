@@ -12,7 +12,7 @@ class AdvanceCalculator extends Calculator {
     }
     public static void main(String[] args) {
         AdvanceCalculator obj = new AdvanceCalculator();
-        System.out.println(obj.add(2,3));
-        System.out.println(obj.add(2,3,4));
+        System.out.println(obj.add(5,8));
+        System.out.println(obj.add(12,10,9));
     }
 }
