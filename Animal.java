@@ -6,7 +6,7 @@ public class Animal {
 class Dog extends Animal {
     Dog() {
         super();
-        System.out.println("Dog Constructor");
+        System.out.println("Dog was Barking");
     }
     public static void main(String[] args) {
         new Dog();
