@@ -12,8 +12,8 @@ public class Palindrome {
             number /= 10;
         }
         if(rev == temp)
-        System.out.println("Palindrome.");
+        System.out.println("It is Palindrome.");
         else
-        System.out.println("Not a Palindrome.");
+        System.out.println("It is Not a Palindrome.");
     }
 }
