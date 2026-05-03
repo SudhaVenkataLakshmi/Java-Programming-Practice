@@ -10,7 +10,7 @@ public class BankAccount {
     }
      public static void main(String[] args) {
         BankAccount acc = new BankAccount();
-        acc.setBalance(5000);
+        acc.setBalance(8000);
         System.out.println(acc.getBalance());
     }
 }
