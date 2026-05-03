@@ -2,7 +2,7 @@ class Test {
     int value = 10;
 
     void change(Test t) {
-        t.value = 80;
+        t.value = 120;
     }
 
     public static void main(String[] args) {
