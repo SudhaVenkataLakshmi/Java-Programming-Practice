@@ -13,7 +13,7 @@ class Card implements Payment {
     public static void main(String[] args) {
         Payment p1 = new UPI();
         Payment p2 = new Card();
-        p1.pay(4000);
-        p2.pay(12000);
+        p1.pay(3000);
+        p2.pay(15000);
     }
 }
