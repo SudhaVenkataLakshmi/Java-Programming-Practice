@@ -1,6 +1,6 @@
 public class Parents {
     void show() {
-        System.out.println("Parent Method");
+        System.out.println("Parents Method");
     }
 }
 class Child extends Parents{
