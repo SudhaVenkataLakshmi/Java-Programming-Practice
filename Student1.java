@@ -7,6 +7,8 @@ public class Student1 {
         new Student1();
         new Student1();
         new Student1();
+        new Student1();
+        new Student1();
         System.out.println("Total Students: " +count);
     }
 }
