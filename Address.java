@@ -15,7 +15,7 @@ class Student {
         System.out.println(name+ " lives in " +address.city);
     }
     public static void main(String[] args){
-        Student s = new Student("Sushma", "Kakinada");
+        Student s = new Student("Sandhya", "Tuni");
         s.display();
     }
 }
