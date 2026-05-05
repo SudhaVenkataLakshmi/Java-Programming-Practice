@@ -7,5 +7,5 @@ public class Remainder {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int rem = a - (a/b) * b;
-    System.out.println("The Remainder of Given Numbers without using % operator: "+rem);    }
+    System.out.println("Remainder of Given Numbers without using % operator: "+rem);    }
 }
