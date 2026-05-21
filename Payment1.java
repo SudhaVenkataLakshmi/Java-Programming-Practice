@@ -10,7 +10,7 @@ class UPI implements Payment1{
     }
     public static void main(String[] args) {
         UPI u = new UPI();
-        u.pay(3500);
+        u.pay(3200);
         u.receipt();
     }
 }
